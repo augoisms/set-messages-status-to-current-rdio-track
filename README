@@ -1,0 +1,5 @@
+Simple AppleScript to set your Messages status to the current track in Rdio.  The script checks every 10 seconds if there has been an update.  If Rdio and/or Messages shuts down, the script will end.  
+
+If you pause or stop Rdio, your Messages status will be set to Available.  This also happens if Rdio is shut down but Messages is still running.
+
+I'm currently using Alfred to run the script, but you could save the script as a stand alone application or run it from the OS X script menu.
